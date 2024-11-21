@@ -38,3 +38,17 @@ h1 {
     font-size: 18px;
     color: #555; 
 }
+
+#keyboardInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #fdc650;
+}
+
+#lastKey {
+    font-weight: bold;
+    color: #da92e4;
+}
