@@ -86,3 +86,7 @@ form button:hover {
     font-size: 18px;
     color: rgb(167, 66, 150);
 }
+
+input.focus {
+    background-color: rgb(196, 63, 167);
+}

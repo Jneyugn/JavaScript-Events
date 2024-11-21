@@ -28,3 +28,15 @@ form.addEventListener('submit', (event) => {
 
     formMessage.textContent = "Form submitted successfully! Thank you.";
 });
+
+//Focus Event
+const usernameInput = document.getElementById('username');
+
+usernameInput.addEventListener('focus', () => {
+    usernameInput.classList.add('focus');
+});
+
+usernameInput.addEventListener('blur', () => {
+    usernameInput.classList.remove('focus');
+});
+
