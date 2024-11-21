@@ -1,5 +1,4 @@
 //button event
-
 const hoverButton = document.getElementById('hoverButton');
 const message = document.getElementById('message');
 
@@ -9,4 +8,12 @@ hoverButton.addEventListener('mouseover', () => {
 
 hoverButton.addEventListener('mouseout', () => {
     message.textContent = 'You have stopped hovering the button >:(';
+});
+
+//keyboard event
+const keyboardInput = document.getElementById('keyboardInput');
+const lastKey = document.getElementById('lastKey');
+
+keyboardInput.addEventListener('keydown', (event) => {
+    lastKey.textContent = event.key; 
 });
