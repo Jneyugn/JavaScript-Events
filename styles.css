@@ -90,3 +90,28 @@ form button:hover {
 input.focus {
     background-color: rgb(196, 63, 167);
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #e4c2d2;
+}
+
+#itemMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #000000;
+}
