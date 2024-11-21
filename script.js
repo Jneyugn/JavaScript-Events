@@ -40,3 +40,12 @@ usernameInput.addEventListener('blur', () => {
     usernameInput.classList.remove('focus');
 });
 
+//Event Delegation
+const itemList = document.getElementById('itemList');
+const itemMessage = document.getElementById('itemMessage');
+
+itemList.addEventListener('click', function(event) {
+    if (event.target.tagName === 'LI') {
+        itemMessage.textContent = 'You clicked: ' + event.target.textContent;
+    }
+});
